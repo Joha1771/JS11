@@ -1,3 +1,54 @@
+// 2
+function sonlar(a, b, c) {
+  if (a > b && a > c) {
+    console.log("a eng katta son =", a);
+  } else if (b > a && b > c) {
+    console.log("b eng katta son =", b);
+  } else {
+    console.log("c eng katta son =", c);
+  }
+}
+
+sonlar(12, 85, 366);
+
+
+// 5
+
+function tekshir(x) {
+  if (x > 0) {
+    console.log("Bu son musbat");
+  } else {
+    console.log("Bu son manfiy");
+  }
+}
+
+function sonlar2(a, b, c) {
+  tekshir(a);
+  tekshir(b);
+  tekshir(c);
+}
+
+sonlar2(7234, -234, -34);
+
+// 6
+
+function sonlar3(start, end) {
+  let juft = 0;
+
+  for (let i = start + 1; i < end; i++) {
+    if (i % 2 === 0) {
+      juft++;
+    }
+  }
+
+  console.log("Juft sonlar =", juft);
+}
+
+sonlar3(4, 10);
+
+
+
+
 // 7
 
 function sonlar1(n1) {
